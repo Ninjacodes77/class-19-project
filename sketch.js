@@ -3,9 +3,9 @@ var obstacle, obstaclesGroup, obstacle_img;
 var gameState = "play";
 
 function preload(){
-  runner_img = loadImage("SUPERMAN.png");
-  path_img = loadImage("road.png");
-  obstacle_img = loadImage("knight.png");
+  runner_img = loadImage("assets/SUPERMAN.png");
+  path_img = loadImage("assets/assets/road.png");
+  obstacle_img = loadImage("assets/knight.png");
 }
 
 function setup() {
